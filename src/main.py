@@ -29,6 +29,8 @@ def main():
         thread = Thread(target=play.window_capture, daemon=True, args=(my.hwndMain, str(i+1), detect_pos[i]))
         thread.start()
 
+    playsound.playsound("../sounds/open_sound.m4a")
+
     # 检测退出按键
     while True:
         if win32api.GetKeyState(ord('Q')) < 0:  # [-127 1 -128 0]循环，其中负数是按下，非负数是抬起，且有些类似于Ctrl的按键是全局的
