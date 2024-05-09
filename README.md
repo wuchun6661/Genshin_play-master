@@ -26,7 +26,7 @@ git命令：git clone https://github.com/wuchun6661/Genshin_play.git
 
 ①启动原神，调节原神分辨率到1920x1080(无边框or全屏都ok)
 
-②右键main.exe，以管理员身份启动
+②右键src文件夹下的main.exe，以管理员身份启动
 
 ③按“q”结束程序
 
@@ -34,7 +34,7 @@ git命令：git clone https://github.com/wuchun6661/Genshin_play.git
 
 ①启动原神，调节原神分辨率到1920x1080
 
-②安装依赖项（pip install xxx）
+②安装依赖项（pip install requirements.txt）
 
 ③以管理员身份启动main.py
 
